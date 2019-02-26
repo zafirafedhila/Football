@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/imgClub"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/img_arsenal"/>
+    <TextView
+            android:id="@+id/tv_namaclub"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="arsenal"/>
+</LinearLayout>
